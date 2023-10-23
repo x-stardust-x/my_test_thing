@@ -1,3 +1,5 @@
 # my_test_thing
 
-![static\imgs\ATRI (13).png](https://dak.gg/er)
+<a href="https://dak.gg/er">
+            <img src="static/imgs/ATRI (13).png">
+</a>
