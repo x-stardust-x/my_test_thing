@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: color-change 7.2s linear infinite;
+    animation: color-change 4.8s linear infinite;
 }
 
 @keyframes color-change {
@@ -26,7 +26,7 @@
         filter: hue-rotate(0deg);
     }
     100%{
-        filter: hue-rotate(720deg);
+        filter: hue-rotate(360deg);
     }
 }
 
@@ -63,6 +63,7 @@
     position: absolute;
     font-family: fontAwesome;
     font-size: 0.75em;
+    opacity: 0;
     animation: particle 2.4s linear infinite;
     animation-delay: calc(var(--i)*-0.2s);
 }
